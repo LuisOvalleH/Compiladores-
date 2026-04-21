@@ -25,9 +25,21 @@ Las tareas solicitadas se cubren para:
 - `sintactico_ast.py`: nodos AST, parser y traduccion (Lua, Python y ASM).
 - `main.py`: ejemplo completo, salida AST JSON y generacion de `salida.asm`.
 
+## Tareas atrasadas agregadas
+- `ht07_printf.py`: genera ensamblador NASM x86-64 usando la funcion externa `printf`.
+- `ht08_coma_flotante.py`: agrega ejemplo de operaciones aritmeticas con valores `float` y genera ASM con registros SSE.
+- `ht09_tabla_simbolos_semantico.py`: construye tabla de simbolos y valida errores semanticos basicos.
+
 ## Ejecucion
 ```bash
 python main.py
+```
+
+Para ejecutar las tareas nuevas:
+```bash
+python ht07_printf.py
+python ht08_coma_flotante.py
+python ht09_tabla_simbolos_semantico.py
 ```
 
 ## Compilacion de ensamblador (Linux/WSL)
