@@ -1,17 +1,17 @@
-# Analizador Lexico, Sintactico y Traductor (AST)
+# Python Compiler Toolkit
 
-# LUIS OVALLE 1515922
+Academic compiler project built in Python. It includes lexical analysis, syntax analysis, AST construction, semantic checks, symbol table handling, and translation examples to Lua, Python, and NASM x86-64 assembly.
 
-## Resumen
-Este proyecto implementa un compilador academico en Python con estas fases:
+## Features
 
-- Analisis lexico para palabras reservadas, identificadores, numeros, cadenas, operadores y delimitadores.
-- Analisis sintactico con construccion de AST.
-- Traduccion del AST a un lenguaje de alto nivel distinto de C (Lua).
-- Traduccion del AST a ensamblador NASM x86-64.
+- Lexical analysis for reserved words, identifiers, numbers, strings, operators, and delimiters
+- Parser with AST construction
+- Semantic validation with a symbol table
+- Translation from AST to Lua and Python
+- NASM x86-64 assembly generation
+- Extra examples for `printf`, floating-point arithmetic, and semantic analysis
 
-## Instrucciones soportadas
-Las tareas solicitadas se cubren para:
+## Supported Instructions
 
 - `print`
 - `println`
@@ -20,34 +20,37 @@ Las tareas solicitadas se cubren para:
 - `if`
 - `else`
 
-## Archivos principales
-- `lexico.py`: tokenizacion.
-- `sintactico_ast.py`: nodos AST, parser y traduccion (Lua, Python y ASM).
-- `main.py`: ejemplo completo, salida AST JSON y generacion de `salida.asm`.
+## Main Files
 
-## Tareas atrasadas agregadas
-- `ht07_printf.py`: genera ensamblador NASM x86-64 usando la funcion externa `printf`.
-- `ht08_coma_flotante.py`: agrega ejemplo de operaciones aritmeticas con valores `float` y genera ASM con registros SSE.
-- `ht09_tabla_simbolos_semantico.py`: construye tabla de simbolos y valida errores semanticos basicos.
+- `lexico.py`: tokenization and lexical analysis
+- `sintactico_ast.py`: AST nodes, parser, and translation logic
+- `main.py`: complete example, AST JSON output, and assembly generation
+- `ht07_printf.py`: NASM x86-64 output using external `printf`
+- `ht08_coma_flotante.py`: floating-point arithmetic with SSE registers
+- `ht09_tabla_simbolos_semantico.py`: symbol table and semantic validation
 
-## Ejecucion
+## Usage
+
+Run the main compiler example:
+
 ```bash
 python main.py
 ```
 
-Para ejecutar las tareas nuevas:
+Run the additional examples:
+
 ```bash
 python ht07_printf.py
 python ht08_coma_flotante.py
 python ht09_tabla_simbolos_semantico.py
 ```
 
-## Compilacion de ensamblador (Linux/WSL)
+## Assembly Compilation
+
+On Linux or WSL:
+
 ```bash
 nasm -f elf64 salida.asm -o salida.o
 ld salida.o -o programa
 ./programa
 ```
-
-## Nota
-En este entorno no hay Python instalado, por eso aqui no se pudo ejecutar `main.py` para prueba dinamica. La validacion realizada fue estatica sobre el codigo.
