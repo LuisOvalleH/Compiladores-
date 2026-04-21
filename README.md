@@ -28,8 +28,8 @@ Academic compiler project built in Python. It includes lexical analysis, syntax 
 - `ht07_printf.py`: NASM x86-64 output using external `printf`
 - `ht08_coma_flotante.py`: floating-point arithmetic with SSE registers
 - `ht09_tabla_simbolos_semantico.py`: symbol table and semantic validation
-- `ht10_minicompilador.py`: Pseudo-C minicompiler with tokens, AST JSON, symbol table, optimized three-address code, and MIPS output
-- `HT10_Minicompilador.md`: written report for the HT10 assignment
+- `ht10_minicompilador.py`: single-file Pseudo-C minicompiler for HT10
+- `HT10_Minicompilador.md`: short report for the HT10 assignment
 
 ## Usage
 

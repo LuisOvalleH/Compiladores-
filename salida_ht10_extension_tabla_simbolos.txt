@@ -1,9 +1,0 @@
-NOMBRE       TIPO     CATEGORIA   AMBITO     VALOR   NOTA
-----------------------------------------------------------------------
-suma         entero   funcion     global     -       retorna entero
-x            entero   parametro   suma       -       entero
-y            entero   parametro   suma       -       entero
-a            entero   variable    global     10      entero
-b            entero   variable    global     20      entero
-c            entero   variable    global     50      entero
-d            entero   variable    global     40      entero

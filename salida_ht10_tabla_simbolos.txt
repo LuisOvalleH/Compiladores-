@@ -1,6 +1,0 @@
-NOMBRE       TIPO     CATEGORIA   AMBITO     VALOR   NOTA
-----------------------------------------------------------------------
-a            entero   variable    global     10      entero
-b            entero   variable    global     20      entero
-c            entero   variable    global     50      entero
-d            entero   variable    global     40      entero
