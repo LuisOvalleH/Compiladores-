@@ -1,0 +1,12 @@
+a = 10
+b = 20
+t1 = b * 2
+t2 = a + t1
+c = t2
+t3 = c > 30
+if_false t3 goto L1
+escribir c
+t4 = c - 10
+d = t4
+L1:
+escribir d

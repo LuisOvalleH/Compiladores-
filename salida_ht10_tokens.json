@@ -1,0 +1,218 @@
+[
+  {
+    "tipo": "RESERVADA",
+    "valor": "inicio",
+    "linea": 2,
+    "columna": 1
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "a",
+    "linea": 3,
+    "columna": 5
+  },
+  {
+    "tipo": "OPERADOR",
+    "valor": "=",
+    "linea": 3,
+    "columna": 7
+  },
+  {
+    "tipo": "NUMERO",
+    "valor": "10",
+    "linea": 3,
+    "columna": 9
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "b",
+    "linea": 4,
+    "columna": 5
+  },
+  {
+    "tipo": "OPERADOR",
+    "valor": "=",
+    "linea": 4,
+    "columna": 7
+  },
+  {
+    "tipo": "NUMERO",
+    "valor": "20",
+    "linea": 4,
+    "columna": 9
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "c",
+    "linea": 5,
+    "columna": 5
+  },
+  {
+    "tipo": "OPERADOR",
+    "valor": "=",
+    "linea": 5,
+    "columna": 7
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "a",
+    "linea": 5,
+    "columna": 9
+  },
+  {
+    "tipo": "OPERADOR",
+    "valor": "+",
+    "linea": 5,
+    "columna": 11
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "b",
+    "linea": 5,
+    "columna": 13
+  },
+  {
+    "tipo": "OPERADOR",
+    "valor": "*",
+    "linea": 5,
+    "columna": 15
+  },
+  {
+    "tipo": "NUMERO",
+    "valor": "2",
+    "linea": 5,
+    "columna": 17
+  },
+  {
+    "tipo": "RESERVADA",
+    "valor": "si",
+    "linea": 6,
+    "columna": 5
+  },
+  {
+    "tipo": "DELIMITADOR",
+    "valor": "(",
+    "linea": 6,
+    "columna": 8
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "c",
+    "linea": 6,
+    "columna": 9
+  },
+  {
+    "tipo": "OPERADOR",
+    "valor": ">",
+    "linea": 6,
+    "columna": 11
+  },
+  {
+    "tipo": "NUMERO",
+    "valor": "30",
+    "linea": 6,
+    "columna": 13
+  },
+  {
+    "tipo": "DELIMITADOR",
+    "valor": ")",
+    "linea": 6,
+    "columna": 15
+  },
+  {
+    "tipo": "RESERVADA",
+    "valor": "entonces",
+    "linea": 6,
+    "columna": 17
+  },
+  {
+    "tipo": "RESERVADA",
+    "valor": "escribir",
+    "linea": 7,
+    "columna": 9
+  },
+  {
+    "tipo": "DELIMITADOR",
+    "valor": "(",
+    "linea": 7,
+    "columna": 17
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "c",
+    "linea": 7,
+    "columna": 18
+  },
+  {
+    "tipo": "DELIMITADOR",
+    "valor": ")",
+    "linea": 7,
+    "columna": 19
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "d",
+    "linea": 8,
+    "columna": 9
+  },
+  {
+    "tipo": "OPERADOR",
+    "valor": "=",
+    "linea": 8,
+    "columna": 11
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "c",
+    "linea": 8,
+    "columna": 13
+  },
+  {
+    "tipo": "OPERADOR",
+    "valor": "-",
+    "linea": 8,
+    "columna": 15
+  },
+  {
+    "tipo": "NUMERO",
+    "valor": "10",
+    "linea": 8,
+    "columna": 17
+  },
+  {
+    "tipo": "RESERVADA",
+    "valor": "finsi",
+    "linea": 9,
+    "columna": 5
+  },
+  {
+    "tipo": "RESERVADA",
+    "valor": "escribir",
+    "linea": 10,
+    "columna": 5
+  },
+  {
+    "tipo": "DELIMITADOR",
+    "valor": "(",
+    "linea": 10,
+    "columna": 13
+  },
+  {
+    "tipo": "IDENTIFICADOR",
+    "valor": "d",
+    "linea": 10,
+    "columna": 14
+  },
+  {
+    "tipo": "DELIMITADOR",
+    "valor": ")",
+    "linea": 10,
+    "columna": 15
+  },
+  {
+    "tipo": "RESERVADA",
+    "valor": "fin",
+    "linea": 11,
+    "columna": 1
+  }
+]

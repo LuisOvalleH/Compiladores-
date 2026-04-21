@@ -9,7 +9,7 @@ Academic compiler project built in Python. It includes lexical analysis, syntax 
 - Semantic validation with a symbol table
 - Translation from AST to Lua and Python
 - NASM x86-64 assembly generation
-- Extra examples for `printf`, floating-point arithmetic, and semantic analysis
+- Extra examples for `printf`, floating-point arithmetic, semantic analysis, and a Pseudo-C minicompiler
 
 ## Supported Instructions
 
@@ -28,6 +28,8 @@ Academic compiler project built in Python. It includes lexical analysis, syntax 
 - `ht07_printf.py`: NASM x86-64 output using external `printf`
 - `ht08_coma_flotante.py`: floating-point arithmetic with SSE registers
 - `ht09_tabla_simbolos_semantico.py`: symbol table and semantic validation
+- `ht10_minicompilador.py`: Pseudo-C minicompiler with tokens, AST JSON, symbol table, optimized three-address code, and MIPS output
+- `HT10_Minicompilador.md`: written report for the HT10 assignment
 
 ## Usage
 
@@ -43,6 +45,7 @@ Run the additional examples:
 python ht07_printf.py
 python ht08_coma_flotante.py
 python ht09_tabla_simbolos_semantico.py
+python ht10_minicompilador.py
 ```
 
 ## Assembly Compilation
@@ -54,3 +57,7 @@ nasm -f elf64 salida.asm -o salida.o
 ld salida.o -o programa
 ./programa
 ```
+
+## Notes
+
+The Python scripts were validated with Python 3.12. To test the generated ASM files, use Linux or WSL with NASM and GCC installed.

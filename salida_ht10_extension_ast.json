@@ -1,0 +1,121 @@
+{
+  "tipo": "programa",
+  "funciones": [
+    {
+      "tipo": "funcion",
+      "nombre": "suma",
+      "parametros": [
+        "x",
+        "y"
+      ],
+      "cuerpo": [
+        {
+          "tipo": "retornar",
+          "expresion": {
+            "tipo": "operacion_binaria",
+            "operador": "+",
+            "izquierda": {
+              "tipo": "variable",
+              "nombre": "x"
+            },
+            "derecha": {
+              "tipo": "variable",
+              "nombre": "y"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "instrucciones": [
+    {
+      "tipo": "asignacion",
+      "variable": "a",
+      "expresion": {
+        "tipo": "constante",
+        "valor": 10
+      }
+    },
+    {
+      "tipo": "asignacion",
+      "variable": "b",
+      "expresion": {
+        "tipo": "constante",
+        "valor": 20
+      }
+    },
+    {
+      "tipo": "asignacion",
+      "variable": "c",
+      "expresion": {
+        "tipo": "operacion_binaria",
+        "operador": "+",
+        "izquierda": {
+          "tipo": "llamada_funcion",
+          "nombre": "suma",
+          "argumentos": [
+            {
+              "tipo": "variable",
+              "nombre": "a"
+            },
+            {
+              "tipo": "variable",
+              "nombre": "b"
+            }
+          ]
+        },
+        "derecha": {
+          "tipo": "variable",
+          "nombre": "b"
+        }
+      }
+    },
+    {
+      "tipo": "si",
+      "condicion": {
+        "tipo": "operacion_binaria",
+        "operador": ">",
+        "izquierda": {
+          "tipo": "variable",
+          "nombre": "c"
+        },
+        "derecha": {
+          "tipo": "constante",
+          "valor": 30
+        }
+      },
+      "cuerpo": [
+        {
+          "tipo": "escribir",
+          "expresion": {
+            "tipo": "variable",
+            "nombre": "c"
+          }
+        },
+        {
+          "tipo": "asignacion",
+          "variable": "d",
+          "expresion": {
+            "tipo": "operacion_binaria",
+            "operador": "-",
+            "izquierda": {
+              "tipo": "variable",
+              "nombre": "c"
+            },
+            "derecha": {
+              "tipo": "constante",
+              "valor": 10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "tipo": "escribir",
+      "expresion": {
+        "tipo": "variable",
+        "nombre": "d"
+      }
+    }
+  ]
+}
